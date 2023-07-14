@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Filling_Polygon",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Filling_Polygon::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Filling_Polygon-Debug-7b8cbf4ce3343d3b8f98.json",
+					"name" : "Filling_Polygon",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/rodas/Desktop/CODING11/Repoitorios GIT/Filling_any_polygon_GraficaComputador/Filling_Polygon/cmake-build-debug",
+		"source" : "C:/Users/rodas/Desktop/CODING11/Repoitorios GIT/Filling_any_polygon_GraficaComputador/Filling_Polygon"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
