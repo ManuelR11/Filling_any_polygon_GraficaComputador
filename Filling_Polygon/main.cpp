@@ -10,22 +10,6 @@ void render() {
     Framebuffer framebuffer(800, 600, Color(0, 0, 0)); // Crear instancia de Framebuffer con ancho, alto y color de borrado
     framebuffer.setCurrentColor(Color(255, 255, 255)); // Establecer color actual para los puntos y líneas
 
-    
-    // Polígono 2
-    Point::Vertex2 vertices2[] = {
-            {321, 335},
-            {288, 286},
-            {339, 251},
-            {374, 302}
-    };
-
-    framebuffer.setCurrentColor(Color(255, 255, 255)); // Establecer color blanco para la orilla
-    Poligono::drawPoligono(vertices2, sizeof(vertices2) / sizeof(vertices2[0]), framebuffer);
-
-    framebuffer.setCurrentColor(Color(0, 0, 255)); // Establecer color azul para el relleno del polígono
-    Relleno::fillPolygon(vertices2, sizeof(vertices2) / sizeof(vertices2[0]), framebuffer);
-
-     /*
 
     // Polígono 3
     Point::Vertex2 vertices3[] = {
@@ -39,6 +23,8 @@ void render() {
 
     framebuffer.setCurrentColor(Color(255, 0, 0)); // Establecer color rojo para el relleno del polígono
     Relleno::fillPolygon(vertices3, sizeof(vertices3) / sizeof(vertices3[0]), framebuffer);
+
+      /*
 
     // Polígono 4
     Point::Vertex2 vertices4[] = {
